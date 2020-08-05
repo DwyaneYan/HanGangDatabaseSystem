@@ -1,0 +1,278 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>HanGang.MaterialSystem.Application</name>
+    </assembly>
+    <members>
+        <member name="T:HanGang.MaterialSystem.DemoManagement.DemoProjectAppService">
+            <summary>
+            演示代码
+            </summary>
+        </member>
+        <member name="M:HanGang.MaterialSystem.DemoManagement.DemoProjectAppService.AddProject(HanGang.MaterialSystem.DemoManagement.Dtos.AddProjectInputDto)">
+            <summary>
+            添加项目
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HanGang.MaterialSystem.DemoManagement.DemoProjectAppService.GetProjects(HanGang.MaterialSystem.DemoManagement.Dtos.GetMyProjectsInputDto)">
+            <summary>
+            获取项目
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HanGang.MaterialSystem.DemoManagement.DemoProjectAppService.UpdateProject(HanGang.MaterialSystem.DemoManagement.Dtos.UpdateProjectInputDto)">
+            <summary>
+            更新项目
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HanGang.MaterialSystem.DemoManagement.DemoProjectAppService.GetProject(System.Guid)">
+            <summary>
+            获取项目详情
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:HanGang.MaterialSystem.Manufactories.ManufactoryAppService">
+            <summary>
+            生产厂家服务
+            </summary>
+        </member>
+        <member name="M:HanGang.MaterialSystem.Manufactories.ManufactoryAppService.GetManufactories(HanGang.MaterialSystem.Manufactories.Dtos.GetManufactoryListInputDto)">
+            <summary>
+            获取所有生产厂家
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HanGang.MaterialSystem.Manufactories.ManufactoryAppService.GetManufactoryById(System.Guid)">
+            <summary>
+            根据生产厂家Id获取某个厂家信息
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HanGang.MaterialSystem.Manufactories.ManufactoryAppService.AddManufactory(HanGang.MaterialSystem.Manufactories.Dtos.AddManufactoryInputDto)">
+            <summary>
+            添加生产厂家
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HanGang.MaterialSystem.Manufactories.ManufactoryAppService.UpdateManufactory(HanGang.MaterialSystem.Manufactories.Dtos.ManufactoryDto)">
+            <summary>
+            更新某个厂家信息
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HanGang.MaterialSystem.Manufactories.ManufactoryAppService.Delete(System.Guid)">
+            <summary>
+            根据生产厂家Id删除某个厂家信息
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:HanGang.MaterialSystem.Trials.MaterialAppService">
+            <summary>
+            材料服务
+            </summary>
+        </member>
+        <member name="M:HanGang.MaterialSystem.Trials.MaterialAppService.GetAllDataExample(System.Guid)">
+            <summary>
+            数据过滤演示
+            </summary>
+            <param name="id"></param>
+        </member>
+        <member name="M:HanGang.MaterialSystem.Trials.MaterialAppService.GetMaterials(HanGang.MaterialSystem.Materials.Dtos.GetMaterialListInputDto)">
+            <summary>
+            获取所有材料
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HanGang.MaterialSystem.Trials.MaterialAppService.AddMaterial(HanGang.MaterialSystem.Materials.Dtos.MaterialDto)">
+            <summary>
+            添加材料
+            </summary>
+            <param name="input"></param>
+            <returns></returns>between types 'System.String' and 'System.Nullable`1[System.Guid]'.”
+        </member>
+        <member name="M:HanGang.MaterialSystem.Trials.MaterialAppService.UpdateTrial(HanGang.MaterialSystem.Materials.Dtos.MaterialDto,System.Guid)">
+            <summary>
+            更新某个材料信息
+            </summary>
+            <param name="input"></param>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HanGang.MaterialSystem.Trials.MaterialAppService.Delete(System.Guid)">
+            <summary>
+            根据材料Id删除某个材料信息
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:HanGang.MaterialSystem.Trials.MaterialTrialDataAppService">
+            <summary>
+            材料实验数据服务
+            </summary>
+        </member>
+        <member name="T:HanGang.MaterialSystem.Trials.TrialAppService">
+            <summary>
+            生产厂家服务
+            </summary>
+        </member>
+        <member name="M:HanGang.MaterialSystem.Trials.TrialAppService.GetTrials(HanGang.MaterialSystem.Trials.Dtos.GetTrialListInputDto)">
+            <summary>
+            获取所有试验
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HanGang.MaterialSystem.Trials.TrialAppService.GetTrialById(System.Guid)">
+            <summary>
+            根据试验Id获取某个试验信息
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HanGang.MaterialSystem.Trials.TrialAppService.AddTrial(HanGang.MaterialSystem.Trials.Dtos.AddTrialDto)">
+            <summary>
+            添加试验
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HanGang.MaterialSystem.Trials.TrialAppService.UpdateTrial(HanGang.MaterialSystem.Trials.Dtos.TrialDto)">
+            <summary>
+            更新某个试验信息
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HanGang.MaterialSystem.Trials.TrialAppService.Delete(System.Guid)">
+            <summary>
+            根据生产厂家Id删除某个厂家信息
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:HanGang.MaterialSystem.MaterialTrials.MaterialTrialAppService">
+            <summary>
+            材料试验服务
+            </summary>
+        </member>
+        <member name="M:HanGang.MaterialSystem.MaterialTrials.MaterialTrialAppService.GetTrialItemByMaterialId(System.Guid)">
+            <summary>
+            根据材料id获取对应实验项目
+            </summary>
+            <param name="materialId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HanGang.MaterialSystem.MaterialTrials.MaterialTrialAppService.GetStaticTensionDataDetails(System.Guid)">
+            <summary>
+            寻找静态拉伸数据明细
+            </summary>
+            <param name="materialId"></param>
+            <param name="trialType"></param>
+        </member>
+        <member name="M:HanGang.MaterialSystem.MaterialTrials.MaterialTrialAppService.GetMaterialTrials(HanGang.MaterialSystem.MaterialTrials.Dtos.GetMaterialTrialListInputDto)">
+            <summary>
+            获取所有材料试验
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HanGang.MaterialSystem.MaterialTrials.MaterialTrialAppService.GetMaterialTrialById(System.Guid)">
+            <summary>
+            根据材料试验Id获取某个材料试验信息
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HanGang.MaterialSystem.MaterialTrials.MaterialTrialAppService.AddMaterialTrial(HanGang.MaterialSystem.MaterialTrials.Dtos.AddMaterialTrialInputDto)">
+            <summary>
+            添加材料试验
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HanGang.MaterialSystem.MaterialTrials.MaterialTrialAppService.UpdateMaterialTrial(HanGang.MaterialSystem.MaterialTrials.Dtos.MaterialTrialDto)">
+            <summary>
+            更新某个材料试验信息
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HanGang.MaterialSystem.MaterialTrials.MaterialTrialAppService.Delete(System.Guid)">
+            <summary>
+            根据材料试验Id删除某个材料试验信息
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HanGang.MaterialSystem.MaterialTrials.MaterialTrialAppService.GetAllDataExample(System.Guid)">
+            <summary>
+            数据过滤演示 同步方法演示
+            </summary>
+            <param name="id"></param>
+        </member>
+        <member name="T:HanGang.MaterialSystem.StaticTensionDataDetails.StaticTensionDataDetailAppService">
+            <summary>
+            静态拉伸服务
+            </summary>
+        </member>
+        <member name="M:HanGang.MaterialSystem.StaticTensionDataDetails.StaticTensionDataDetailAppService.AddManufactory(HanGang.MaterialSystem.StaticTensionDataDetails.Dtos.StaticTensionDataDetailDto)">
+            <summary>
+            添加静态拉伸数据
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="T:HanGang.MaterialSystem.TypicalParts.TypicalPartAppService">
+            <summary>
+            零部件服务
+            </summary>
+        </member>
+        <member name="M:HanGang.MaterialSystem.TypicalParts.TypicalPartAppService.GetTypicalParts(HanGang.MaterialSystem.TypicalParts.Dtos.GetTypicalPartListInputDto)">
+            <summary>
+            获取所有零部件
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HanGang.MaterialSystem.TypicalParts.TypicalPartAppService.GetTypicalPartById(System.Guid)">
+            <summary>
+            根据零部件Id获取某个零部件信息
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HanGang.MaterialSystem.TypicalParts.TypicalPartAppService.AddTypicalPart(HanGang.MaterialSystem.TypicalParts.Dtos.AddTypicalPartInputDto)">
+            <summary>
+            添加零部件
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HanGang.MaterialSystem.TypicalParts.TypicalPartAppService.UpdateTypicalPart(HanGang.MaterialSystem.TypicalParts.Dtos.TypicalPartDto)">
+            <summary>
+            更新某个零部件信息
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HanGang.MaterialSystem.TypicalParts.TypicalPartAppService.Delete(System.Guid)">
+            <summary>
+            根据生产厂家Id删除某个零部件信息
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

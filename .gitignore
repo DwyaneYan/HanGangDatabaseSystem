@@ -1,0 +1,12 @@
+﻿################################################################################
+# 此 .gitignore 文件已由 Microsoft(R) Visual Studio 自动创建。
+################################################################################
+
+/.vs/Abp/v16/.suo
+/.vs/slnx.sqlite
+/.vs/VSWorkspaceState.json
+/.vs
+/aspnet-core/file邯钢--任务.docx
+/aspnet-core/fileM值分析.png
+/aspnet-core/fileM值.xlsx
+logs.txt
